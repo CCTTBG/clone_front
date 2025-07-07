@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   구동 확인
+  깃연동 확인
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
