@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-createApp(App).mount('#app')
+import './fontawesome/icons' 
+
+const app = createApp(App)
+
+app.component('FontAwesomeIcon', FontAwesomeIcon)
+app.mount('#app')
