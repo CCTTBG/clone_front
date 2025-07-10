@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="storys">
-                <div class="story" v-for="user in users" :key="user[i]" >
+                <div class="story" v-for="(user,i) in users" :key="user[i]" >
                     <img class="storyImg" :src =user.userImg>
                     <p class="storyUserName">{{user.userName}}</p>
                 </div>
