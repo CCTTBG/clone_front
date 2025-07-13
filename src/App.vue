@@ -1,11 +1,13 @@
 <template>
 <div>
   <NaviBar />
+  <baseContent />
 </div>
 </template>
 
 <script>
 import NaviBar from '@/components/navi.vue'
+import baseContent from '@/components/baseContent.vue'
 
 export default {
   name: 'App',
@@ -14,7 +16,8 @@ export default {
     }
   },
   components: {
-    NaviBar
+    NaviBar,
+    baseContent
   }
 }
 </script>
