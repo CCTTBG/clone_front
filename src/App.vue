@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="mainContent">
   <NaviBar />
   <baseContent />
 </div>
@@ -23,5 +23,10 @@ export default {
 </script>
 
 <style>
-
+.mainContent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
 </style>
