@@ -33,7 +33,7 @@ export default {
 .contentWrapper{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
     padding: 16px;
 }
 .userData{
@@ -64,5 +64,6 @@ export default {
     border-radius: 10px;
     margin-top: 10px;
     object-fit: cover;
+
 }
 </style>

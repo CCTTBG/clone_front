@@ -44,6 +44,7 @@ export default {
 <style>
     .totalhead {
         padding: 10px 0;
+        width: 100%;
     }
     .navibar{
         display: flex;
