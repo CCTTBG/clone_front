@@ -18,16 +18,30 @@
                     <font-awesome-icon :icon="['fas', 'film']" class="icon"/>
                 </button>
                 
-                <button class="row_btn" >
+                <button class="row_btn" @click="myProfile">
                     내프로필
                 </button>
             </div>
         </div>
         </footer>
     </template>
+
 <script>
+import router from '@/router'
+
 export default {
-    
+    methods: {
+        myProfile() {
+            console.log("버튼 눌림")
+            console.log(this.$router)
+            const isLogin = localStorage.getItem('islogin') === 'true'
+            if (isLogin) {
+            router.push('/my-info')
+            } else {
+            router.push('/login')
+            }
+        }   
+    }
 }
 </script>
 <style >
