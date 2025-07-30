@@ -1,6 +1,10 @@
 <template>
     <div>
         <h2>로그인</h2>
+        <div>
+            아이디: <input class="userId">
+            비밀번호: <input class="userpass">
+        </div>
         <button @click="handleLogin">로그인하기</button>
     </div>
 </template>
