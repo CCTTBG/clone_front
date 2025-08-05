@@ -1,0 +1,14 @@
+[
+    {
+        "userId":"user",
+        "name":"유저1",
+        "passWord":"123",
+        "profilePic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ux6b26C7E5tu4xKPTtRD9k6BIWWocpRlYw&s"
+    },  
+    {
+        "userId":"user12",
+        "name":"유저2",
+        "passWord":"123",
+        "profilePic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjm7BYfQjijFSSJTOOuiOJUJiWtSjyOpJrBsM_HcxCtsxsvC420MLr8UZPypUcq-4ToVo&usqp=CAU"
+    }
+]
